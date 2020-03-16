@@ -27,6 +27,7 @@ Note: This works on OpenShift 4.4. The way the ConfigMap looks like may change i
 
 ## Next steps
 
+* Clean up current ES dashboards and add it to the deployment for ES so that it will render inside the OpenShift console.
 * Explore https://github.com/justwatchcom/elasticsearch_exporter and if it does provide more visibility into Elasticsearch. It comes with metrics, alerting rules and dashboards for Elasticsearch.
 * Ship Elasticsearch and fluentd dashboards and add them into the console.
 
